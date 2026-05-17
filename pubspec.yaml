@@ -1,0 +1,40 @@
+name: fuel_cost_calculator
+description: A professional fuel cost calculator app for trip planning
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # Date Formatting
+  intl: ^0.18.1
+  
+  # URL Launcher for social links
+  url_launcher: ^6.2.5
+  
+  # Storage Permission
+  permission_handler: ^11.3.0
+  provider: ^6.1.1  # ADD THIS
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
